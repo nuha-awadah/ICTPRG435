@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5152fc0b-7c80-4d54-8d4e-4e15a3500393" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ICTPRG435.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee_pay_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monthly_budget_tracker.py" afterDir="false" />
+    <list default="true" id="5152fc0b-7c80-4d54-8d4e-4e15a3500393" name="Changes" comment="Included employee_pay_calculator.py codes and pseudocodes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_pay_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_pay_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_budget_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_budget_tracker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,67 +27,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nuha-awadah"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nuha-awadah/ICTPRG435.git",
+    "accountId": "c54ef6d3-0b87-4e7e-963b-f8ca2bc40159"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000613745471434" />
-      <entry key="S2" value="1.088510964888409" />
-      <entry key="S5" value="1.3791393228484283" />
-      <entry key="S10" value="1.6157503835486735" />
-      <entry key="S30" value="1.8914172051525266" />
-      <entry key="S60" value="2.2716543195891656" />
-      <entry key="M2" value="2.984051173091755" />
-      <entry key="M5" value="3.935452758173629" />
-      <entry key="M10" value="4.488045609010916" />
-      <entry key="M15" value="5.324507895945746" />
-      <entry key="M30" value="12.767534984268396" />
-      <entry key="H1" value="33.089531761271864" />
-      <entry key="H2" value="58.99242713860041" />
-      <entry key="H4" value="80.17687696094002" />
-      <entry key="D1" value="104.29075243429524" />
-      <entry key="W1" value="109.16415003424932" />
+      <entry key="MS100" value="1.659753966631074" />
+      <entry key="MS500" value="1.9840289745520323" />
+      <entry key="S2" value="3.8037249936201625" />
+      <entry key="S5" value="6.429086533904934" />
+      <entry key="S10" value="8.2355985032033" />
+      <entry key="S30" value="10.78612231559125" />
+      <entry key="S60" value="15.959211721431531" />
+      <entry key="M2" value="26.142881942337784" />
+      <entry key="M5" value="40.478209050201805" />
+      <entry key="M10" value="49.7572429693787" />
+      <entry key="M15" value="56.09776763886581" />
+      <entry key="M30" value="68.94331087467795" />
+      <entry key="H1" value="83.22086081145557" />
+      <entry key="H2" value="105.37821183861863" />
+      <entry key="H4" value="138.0668975278679" />
+      <entry key="D1" value="201.6724746025759" />
+      <entry key="W1" value="218.8821697211715" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="7.130227141493125E-169" />
-      <entry key="S30" value="8.937748518177406E-57" />
-      <entry key="S60" value="9.65728255433918E-29" />
-      <entry key="M2" value="1.1502840567180702E-14" />
-      <entry key="M5" value="4.96677676768275E-6" />
-      <entry key="M10" value="0.005002481718925667" />
-      <entry key="M15" value="0.054097651683451084" />
-      <entry key="M30" value="0.6257530263279876" />
-      <entry key="H1" value="2.2043477991718903" />
-      <entry key="H2" value="4.182513164804582" />
-      <entry key="H4" value="5.778445028571265" />
-      <entry key="D1" value="7.576686819440134" />
-      <entry key="W1" value="7.938079601180032" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="1.8344881227274122E-157" />
+      <entry key="S60" value="4.2830924840906813E-79" />
+      <entry key="M2" value="6.544533966670774E-40" />
+      <entry key="M5" value="2.1200855470023866E-16" />
+      <entry key="M10" value="1.4628752031610514E-8" />
+      <entry key="M15" value="6.271744627636776E-6" />
+      <entry key="M30" value="0.003937265427002406" />
+      <entry key="H1" value="0.15717465807641717" />
+      <entry key="H2" value="1.1470461326687051" />
+      <entry key="H4" value="3.1885759963065015" />
+      <entry key="D1" value="7.563531094838892" />
+      <entry key="W1" value="8.77899510076288" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9890316140230624" />
-      <entry key="S2" value="1.0854971516261167" />
-      <entry key="S5" value="1.377610656224703" />
-      <entry key="S10" value="1.6148546684571594" />
-      <entry key="S30" value="1.8910654421335364" />
-      <entry key="S60" value="2.2714349800723324" />
-      <entry key="M2" value="2.9838994957380085" />
-      <entry key="M5" value="3.9353742252053356" />
-      <entry key="M10" value="4.492947815410539" />
-      <entry key="M15" value="5.378256917987724" />
-      <entry key="M30" value="13.391649118310246" />
-      <entry key="H1" value="35.29107578379092" />
-      <entry key="H2" value="63.17228447156561" />
-      <entry key="H4" value="85.95348329022684" />
-      <entry key="D1" value="111.86703610480504" />
-      <entry key="W1" value="117.10216925361053" />
+      <entry key="MS100" value="0.7469641459316991" />
+      <entry key="MS500" value="1.5302840468763736" />
+      <entry key="S2" value="3.4857348608101817" />
+      <entry key="S5" value="6.203515803306428" />
+      <entry key="S10" value="8.092275928862254" />
+      <entry key="S30" value="10.724595302255823" />
+      <entry key="S60" value="15.911309796673873" />
+      <entry key="M2" value="26.10025017957528" />
+      <entry key="M5" value="40.45017092007192" />
+      <entry key="M10" value="49.740173200232064" />
+      <entry key="M15" value="56.08540738102927" />
+      <entry key="M30" value="68.94021448277022" />
+      <entry key="H1" value="83.37390575551393" />
+      <entry key="H2" value="106.5224368928363" />
+      <entry key="H4" value="141.25339886409793" />
+      <entry key="D1" value="209.2354306317682" />
+      <entry key="W1" value="227.66107362443873" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -111,7 +118,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.employee_pay_calculator.executor": "Run",
+    "Python.employee_pay_calculator.executor": "Debug",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -145,14 +152,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1785388603850</updated>
-      <workItem from="1785388604875" duration="5087000" />
+      <workItem from="1785388604875" duration="19475000" />
     </task>
+    <task id="LOCAL-00001" summary="Included employee_pay_calculator.py codes and pseudocodes">
+      <option name="closed" value="true" />
+      <created>1785397405240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785397405240</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Included employee_pay_calculator.py codes and pseudocodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Included employee_pay_calculator.py codes and pseudocodes" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ICTPRG435$employee_pay_calculator.coverage" NAME="employee_pay_calculator Coverage Results" MODIFIED="1785397164517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$employee_pay_calculator.coverage" NAME="employee_pay_calculator Coverage Results" MODIFIED="1785403660984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
