@@ -22,11 +22,3 @@ else:
 print(f"You earned ${totalWage}")
 # print(f"\nID : , Initials: ")
 
-# questions to ask
-# 1. i have done the pseudocode and i already have done the code, the next thing to do now is the test plan,
-    # when i ran through the test plan, i have not accounted the pseudocode to include where the input is in negative number
-    # should i just submit my work with test plan that includes what i should code in to fix the error
-    # or
-    # i should fix the pseudocode, the code so i dont need to include the explainations in the test plan?
-# - the fix is TC-003 and TC-004 to include try catch input validation test, same with scenario 2
-# depending on the teacher answer, i should be able to submit this by week 4.
