@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5152fc0b-7c80-4d54-8d4e-4e15a3500393" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ICTPRG435.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee_pay_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monthly_budget_tracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/W3ICT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ICTPRG435.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ICTPRG435.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_pay_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/AT1/employee_pay_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_budget_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/AT1/monthly_budget_tracker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "assignee": "nuha-awadah"
+    }
+  ],
+  "lastFilter": {
+    "assignee": "nuha-awadah"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nuha-awadah/ICTPRG435.git",
+    "accountId": "5b4f1bb9-2ce2-480d-ba41-bac93a92786e"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -95,10 +109,10 @@
       <entry key="W1" value="117.10216925361053" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3HD32MvCnOGCRhfT30LFrtSWZsY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -111,6 +125,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.W3ICT.executor": "Run",
     "Python.employee_pay_calculator.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -128,13 +143,20 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\30148167\PycharmProjects\ICTPRG435\AT1" />
+      <recent name="C:\Users\30148167\PycharmProjects\ICTPRG435\Exercises" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-6fa658e1df1a-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.369" />
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
       </set>
     </attachedChunks>
   </component>
@@ -146,6 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1785388603850</updated>
       <workItem from="1785388604875" duration="5087000" />
+      <workItem from="1785914109118" duration="1599000" />
     </task>
     <servers />
   </component>
@@ -154,5 +177,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ICTPRG435$employee_pay_calculator.coverage" NAME="employee_pay_calculator Coverage Results" MODIFIED="1785397164517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$W3ICT.coverage" NAME="W3ICT Coverage Results" MODIFIED="1785915551838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
   </component>
 </project>
