@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5152fc0b-7c80-4d54-8d4e-4e15a3500393" name="Changes" comment="deleted pseudocode, added a few comments for clarity in employee_pay_calculator.py. Added pseudocode for monthly_budget_tracker.py">
-      <change beforePath="$PROJECT_DIR$/.idea/ICTPRG435.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ICTPRG435.iml" afterDir="false" />
+    <list default="true" id="5152fc0b-7c80-4d54-8d4e-4e15a3500393" name="Changes" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AT1/monthly_budget_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/AT1/monthly_budget_tracker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthly_budget_tracker.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000013178" />
-      <entry key="S10" value="1.0000015943272422" />
-      <entry key="S30" value="1.0184674125708184" />
-      <entry key="S60" value="1.1920963907672657" />
-      <entry key="M2" value="1.6473691026372859" />
-      <entry key="M5" value="7.6146534262678305" />
-      <entry key="M10" value="43.786002403262216" />
-      <entry key="M15" value="88.02673556471464" />
-      <entry key="M30" value="188.74210082929233" />
-      <entry key="H1" value="290.8229094233211" />
-      <entry key="H2" value="377.7711024137606" />
-      <entry key="H4" value="452.22537815604346" />
-      <entry key="D1" value="565.7786396608255" />
-      <entry key="W1" value="594.7730739940321" />
+      <entry key="MS100" value="1.826231740770114" />
+      <entry key="MS500" value="2.8554059038626516" />
+      <entry key="S2" value="4.6930239317512115" />
+      <entry key="S5" value="7.708057267199028" />
+      <entry key="S10" value="10.516701934312438" />
+      <entry key="S30" value="14.296222607160306" />
+      <entry key="S60" value="16.668623768849248" />
+      <entry key="M2" value="20.21296935889285" />
+      <entry key="M5" value="29.235731206004264" />
+      <entry key="M10" value="56.58672921309622" />
+      <entry key="M15" value="94.39008843166111" />
+      <entry key="M30" value="192.84438482794542" />
+      <entry key="H1" value="302.27450682180995" />
+      <entry key="H2" value="398.3474418578799" />
+      <entry key="H4" value="479.7477779848577" />
+      <entry key="D1" value="601.5879883086418" />
+      <entry key="W1" value="632.4439836242257" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="5.422161372076384E-127" />
-      <entry key="S2" value="2.71358299909771E-32" />
-      <entry key="S5" value="2.3627471276417425E-13" />
-      <entry key="S10" value="4.860809734644777E-7" />
-      <entry key="S30" value="0.007862660805519181" />
-      <entry key="S60" value="0.08867166443279764" />
-      <entry key="M2" value="0.2979861913065067" />
-      <entry key="M5" value="0.6904567588265307" />
-      <entry key="M10" value="1.4377651499693724" />
-      <entry key="M15" value="2.2561974937849314" />
-      <entry key="M30" value="4.021536967376496" />
-      <entry key="H1" value="5.663504947014194" />
-      <entry key="H2" value="7.384793296758885" />
-      <entry key="H4" value="9.808669066578076" />
-      <entry key="D1" value="15.144190662369962" />
-      <entry key="W1" value="16.711258221542593" />
+      <entry key="MS500" value="2.3246903273804E-69" />
+      <entry key="S2" value="6.943705245944354E-18" />
+      <entry key="S5" value="1.3697348665752357E-7" />
+      <entry key="S10" value="3.7009929298142323E-4" />
+      <entry key="S30" value="0.07181906141938582" />
+      <entry key="S60" value="0.2730201761351951" />
+      <entry key="M2" value="0.6057392773410876" />
+      <entry key="M5" value="1.3432569344436378" />
+      <entry key="M10" value="2.296215562824111" />
+      <entry key="M15" value="3.1854979891996766" />
+      <entry key="M30" value="5.14822088448472" />
+      <entry key="H1" value="7.065603366376984" />
+      <entry key="H2" value="9.003015799392083" />
+      <entry key="H4" value="11.561370324691682" />
+      <entry key="D1" value="17.082482228148436" />
+      <entry key="W1" value="18.701583537548363" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.159377819340139E-5" />
-      <entry key="MS500" value="0.12586944375708986" />
-      <entry key="S2" value="0.5956348202129352" />
-      <entry key="S5" value="0.8128156019855904" />
-      <entry key="S10" value="0.9015647552498044" />
-      <entry key="S30" value="0.9915714207056667" />
-      <entry key="S60" value="1.2593507322788806" />
-      <entry key="M2" value="1.9297309028177165" />
-      <entry key="M5" value="8.29400182485965" />
-      <entry key="M10" value="45.20983995114797" />
-      <entry key="M15" value="90.26675187180142" />
-      <entry key="M30" value="192.74737294348537" />
-      <entry key="H1" value="296.4739593938616" />
-      <entry key="H2" value="385.1476126737425" />
-      <entry key="H4" value="462.02882570182953" />
-      <entry key="D1" value="580.9216303672549" />
-      <entry key="W1" value="611.4841477718156" />
+      <entry key="MS100" value="1.2595581921186798" />
+      <entry key="MS500" value="2.4116777087304215" />
+      <entry key="S2" value="4.281664374500098" />
+      <entry key="S5" value="7.321158695134615" />
+      <entry key="S10" value="10.214049726831337" />
+      <entry key="S30" value="14.216907971350048" />
+      <entry key="S60" value="16.846736125349498" />
+      <entry key="M2" value="20.75440480756978" />
+      <entry key="M5" value="30.53792068911733" />
+      <entry key="M10" value="58.8521294624258" />
+      <entry key="M15" value="97.54799229177252" />
+      <entry key="M30" value="197.9701917919365" />
+      <entry key="H1" value="309.3241230128155" />
+      <entry key="H2" value="407.3401861766286" />
+      <entry key="H4" value="491.3028532878947" />
+      <entry key="D1" value="618.6690748879003" />
+      <entry key="W1" value="651.1453541707123" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -119,7 +117,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.employee_pay_calculator.executor": "Debug",
+    "Python.employee_pay_calculator.executor": "Run",
     "Python.monthly_budget_tracker.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -169,7 +167,7 @@
       <workItem from="1785469626172" duration="1196000" />
       <workItem from="1785497719294" duration="3133000" />
       <workItem from="1785668852787" duration="1277000" />
-      <workItem from="1785934402222" duration="768000" />
+      <workItem from="1785934402222" duration="4906000" />
     </task>
     <task id="LOCAL-00001" summary="Included employee_pay_calculator.py codes and pseudocodes">
       <option name="closed" value="true" />
@@ -203,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785934694885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-">
+      <option name="closed" value="true" />
+      <created>1785935192098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1785935192098</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,10 +218,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Included employee_pay_calculator.py codes and pseudocodes" />
     <MESSAGE value="deleted pseudocode, added a few comments for clarity in employee_pay_calculator.py. Added pseudocode for monthly_budget_tracker.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted pseudocode, added a few comments for clarity in employee_pay_calculator.py. Added pseudocode for monthly_budget_tracker.py" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ICTPRG435$monthly_budget_tracker.coverage" NAME="monthly_budget_tracker Coverage Results" MODIFIED="1785500203003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ICTPRG435$employee_pay_calculator.coverage" NAME="employee_pay_calculator Coverage Results" MODIFIED="1785403660984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$monthly_budget_tracker.coverage" NAME="monthly_budget_tracker Coverage Results" MODIFIED="1785935916913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AT1" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$employee_pay_calculator.coverage" NAME="employee_pay_calculator Coverage Results" MODIFIED="1785935423400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AT1" />
   </component>
 </project>
