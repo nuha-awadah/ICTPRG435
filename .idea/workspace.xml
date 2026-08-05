@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5152fc0b-7c80-4d54-8d4e-4e15a3500393" name="Changes" comment="Included employee_pay_calculator.py codes and pseudocodes">
+    <list default="true" id="5152fc0b-7c80-4d54-8d4e-4e15a3500393" name="Changes" comment="deleted pseudocode, added a few comments for clarity in employee_pay_calculator.py. Added pseudocode for monthly_budget_tracker.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee_pay_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_pay_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/monthly_budget_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_budget_tracker.py" afterDir="false" />
@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="5" />
+    <option name="cachedIndexableFilesCount" value="8" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,85 +27,85 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "nuha-awadah"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nuha-awadah&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nuha-awadah/ICTPRG435.git",
-    "accountId": "c54ef6d3-0b87-4e7e-963b-f8ca2bc40159"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nuha-awadah/ICTPRG435.git&quot;,
+    &quot;accountId&quot;: &quot;c54ef6d3-0b87-4e7e-963b-f8ca2bc40159&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.659753966631074" />
-      <entry key="MS500" value="1.9840289745520323" />
-      <entry key="S2" value="3.8037249936201625" />
-      <entry key="S5" value="6.429086533904934" />
-      <entry key="S10" value="8.2355985032033" />
-      <entry key="S30" value="10.78612231559125" />
-      <entry key="S60" value="15.959211721431531" />
-      <entry key="M2" value="26.142881942337784" />
-      <entry key="M5" value="40.478209050201805" />
-      <entry key="M10" value="49.7572429693787" />
-      <entry key="M15" value="56.09776763886581" />
-      <entry key="M30" value="68.94331087467795" />
-      <entry key="H1" value="83.22086081145557" />
-      <entry key="H2" value="105.37821183861863" />
-      <entry key="H4" value="138.0668975278679" />
-      <entry key="D1" value="201.6724746025759" />
-      <entry key="W1" value="218.8821697211715" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000013178" />
+      <entry key="S10" value="1.0000015943272422" />
+      <entry key="S30" value="1.0184674125708184" />
+      <entry key="S60" value="1.1920963907672657" />
+      <entry key="M2" value="1.6473691026372859" />
+      <entry key="M5" value="7.6146534262678305" />
+      <entry key="M10" value="43.786002403262216" />
+      <entry key="M15" value="88.02673556471464" />
+      <entry key="M30" value="188.74210082929233" />
+      <entry key="H1" value="290.8229094233211" />
+      <entry key="H2" value="377.7711024137606" />
+      <entry key="H4" value="452.22537815604346" />
+      <entry key="D1" value="565.7786396608255" />
+      <entry key="W1" value="594.7730739940321" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="1.8344881227274122E-157" />
-      <entry key="S60" value="4.2830924840906813E-79" />
-      <entry key="M2" value="6.544533966670774E-40" />
-      <entry key="M5" value="2.1200855470023866E-16" />
-      <entry key="M10" value="1.4628752031610514E-8" />
-      <entry key="M15" value="6.271744627636776E-6" />
-      <entry key="M30" value="0.003937265427002406" />
-      <entry key="H1" value="0.15717465807641717" />
-      <entry key="H2" value="1.1470461326687051" />
-      <entry key="H4" value="3.1885759963065015" />
-      <entry key="D1" value="7.563531094838892" />
-      <entry key="W1" value="8.77899510076288" />
+      <entry key="MS500" value="5.422161372076384E-127" />
+      <entry key="S2" value="2.71358299909771E-32" />
+      <entry key="S5" value="2.3627471276417425E-13" />
+      <entry key="S10" value="4.860809734644777E-7" />
+      <entry key="S30" value="0.007862660805519181" />
+      <entry key="S60" value="0.08867166443279764" />
+      <entry key="M2" value="0.2979861913065067" />
+      <entry key="M5" value="0.6904567588265307" />
+      <entry key="M10" value="1.4377651499693724" />
+      <entry key="M15" value="2.2561974937849314" />
+      <entry key="M30" value="4.021536967376496" />
+      <entry key="H1" value="5.663504947014194" />
+      <entry key="H2" value="7.384793296758885" />
+      <entry key="H4" value="9.808669066578076" />
+      <entry key="D1" value="15.144190662369962" />
+      <entry key="W1" value="16.711258221542593" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7469641459316991" />
-      <entry key="MS500" value="1.5302840468763736" />
-      <entry key="S2" value="3.4857348608101817" />
-      <entry key="S5" value="6.203515803306428" />
-      <entry key="S10" value="8.092275928862254" />
-      <entry key="S30" value="10.724595302255823" />
-      <entry key="S60" value="15.911309796673873" />
-      <entry key="M2" value="26.10025017957528" />
-      <entry key="M5" value="40.45017092007192" />
-      <entry key="M10" value="49.740173200232064" />
-      <entry key="M15" value="56.08540738102927" />
-      <entry key="M30" value="68.94021448277022" />
-      <entry key="H1" value="83.37390575551393" />
-      <entry key="H2" value="106.5224368928363" />
-      <entry key="H4" value="141.25339886409793" />
-      <entry key="D1" value="209.2354306317682" />
-      <entry key="W1" value="227.66107362443873" />
+      <entry key="MS100" value="3.159377819340139E-5" />
+      <entry key="MS500" value="0.12586944375708986" />
+      <entry key="S2" value="0.5956348202129352" />
+      <entry key="S5" value="0.8128156019855904" />
+      <entry key="S10" value="0.9015647552498044" />
+      <entry key="S30" value="0.9915714207056667" />
+      <entry key="S60" value="1.2593507322788806" />
+      <entry key="M2" value="1.9297309028177165" />
+      <entry key="M5" value="8.29400182485965" />
+      <entry key="M10" value="45.20983995114797" />
+      <entry key="M15" value="90.26675187180142" />
+      <entry key="M30" value="192.74737294348537" />
+      <entry key="H1" value="296.4739593938616" />
+      <entry key="H2" value="385.1476126737425" />
+      <entry key="H4" value="462.02882570182953" />
+      <entry key="D1" value="580.9216303672549" />
+      <entry key="W1" value="611.4841477718156" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3HD32MvCnOGCRhfT30LFrtSWZsY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -114,30 +114,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.employee_pay_calculator.executor": "Debug",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.employee_pay_calculator.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.monthly_budget_tracker.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -152,7 +153,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1785388603850</updated>
-      <workItem from="1785388604875" duration="19475000" />
+      <workItem from="1785388604875" duration="19972000" />
+      <workItem from="1785469626172" duration="1196000" />
+      <workItem from="1785497719294" duration="3133000" />
+      <workItem from="1785668852787" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="Included employee_pay_calculator.py codes and pseudocodes">
       <option name="closed" value="true" />
@@ -162,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785397405240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deleted pseudocode, added a few comments for clarity in employee_pay_calculator.py. Added pseudocode for monthly_budget_tracker.py">
+      <option name="closed" value="true" />
+      <created>1785415329943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1785415329943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,9 +182,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Included employee_pay_calculator.py codes and pseudocodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Included employee_pay_calculator.py codes and pseudocodes" />
+    <MESSAGE value="deleted pseudocode, added a few comments for clarity in employee_pay_calculator.py. Added pseudocode for monthly_budget_tracker.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted pseudocode, added a few comments for clarity in employee_pay_calculator.py. Added pseudocode for monthly_budget_tracker.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ICTPRG435$monthly_budget_tracker.coverage" NAME="monthly_budget_tracker Coverage Results" MODIFIED="1785500203003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ICTPRG435$employee_pay_calculator.coverage" NAME="employee_pay_calculator Coverage Results" MODIFIED="1785403660984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
