@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5152fc0b-7c80-4d54-8d4e-4e15a3500393" name="Changes" comment="-">
+    <list default="true" id="5152fc0b-7c80-4d54-8d4e-4e15a3500393" name="Changes" comment="updated w7">
+      <change beforePath="$PROJECT_DIR$/.idea/ICTPRG435.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ICTPRG435.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AT1/employee_pay_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/AT1/employee_pay_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AT1/monthly_budget_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/AT1/monthly_budget_tracker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="8" />
+    <option name="cachedIndexableFilesCount" value="11" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -35,7 +38,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/nuha-awadah/ICTPRG435.git&quot;,
-    &quot;accountId&quot;: &quot;c54ef6d3-0b87-4e7e-963b-f8ca2bc40159&quot;
+    &quot;accountId&quot;: &quot;34b958a7-7771-4ff0-8471-d9d786f326c2&quot;
   }
 }</component>
   <component name="McpProjectServerCommands">
@@ -44,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.826231740770114" />
-      <entry key="MS500" value="2.8554059038626516" />
-      <entry key="S2" value="4.6930239317512115" />
-      <entry key="S5" value="7.708057267199028" />
-      <entry key="S10" value="10.516701934312438" />
-      <entry key="S30" value="14.296222607160306" />
-      <entry key="S60" value="16.668623768849248" />
-      <entry key="M2" value="20.21296935889285" />
-      <entry key="M5" value="29.235731206004264" />
-      <entry key="M10" value="56.58672921309622" />
-      <entry key="M15" value="94.39008843166111" />
-      <entry key="M30" value="192.84438482794542" />
-      <entry key="H1" value="302.27450682180995" />
-      <entry key="H2" value="398.3474418578799" />
-      <entry key="H4" value="479.7477779848577" />
-      <entry key="D1" value="601.5879883086418" />
-      <entry key="W1" value="632.4439836242257" />
+      <entry key="MS100" value="1.0000002104622032" />
+      <entry key="MS500" value="1.0538570231737205" />
+      <entry key="S2" value="1.9389067611079362" />
+      <entry key="S5" value="2.856401412200086" />
+      <entry key="S10" value="3.3538791296497448" />
+      <entry key="S30" value="3.7654294207923136" />
+      <entry key="S60" value="3.8801295105628073" />
+      <entry key="M2" value="3.943568957072608" />
+      <entry key="M5" value="4.382283018771979" />
+      <entry key="M10" value="7.204585642684408" />
+      <entry key="M15" value="11.469008041825559" />
+      <entry key="M30" value="27.408299479163897" />
+      <entry key="H1" value="74.18419759928743" />
+      <entry key="H2" value="189.78412534513566" />
+      <entry key="H4" value="358.9812034332857" />
+      <entry key="D1" value="688.1756870558226" />
+      <entry key="W1" value="780.9568685562996" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.3246903273804E-69" />
-      <entry key="S2" value="6.943705245944354E-18" />
-      <entry key="S5" value="1.3697348665752357E-7" />
-      <entry key="S10" value="3.7009929298142323E-4" />
-      <entry key="S30" value="0.07181906141938582" />
-      <entry key="S60" value="0.2730201761351951" />
-      <entry key="M2" value="0.6057392773410876" />
-      <entry key="M5" value="1.3432569344436378" />
-      <entry key="M10" value="2.296215562824111" />
-      <entry key="M15" value="3.1854979891996766" />
-      <entry key="M30" value="5.14822088448472" />
-      <entry key="H1" value="7.065603366376984" />
-      <entry key="H2" value="9.003015799392083" />
-      <entry key="H4" value="11.561370324691682" />
-      <entry key="D1" value="17.082482228148436" />
-      <entry key="W1" value="18.701583537548363" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="4.4119999225436545E-261" />
+      <entry key="S10" value="6.64228870386078E-131" />
+      <entry key="S30" value="4.0498529040435057E-44" />
+      <entry key="S60" value="2.0124246331337493E-22" />
+      <entry key="M2" value="1.4185995323324162E-11" />
+      <entry key="M5" value="4.578718300801375E-5" />
+      <entry key="M10" value="0.00676677652868749" />
+      <entry key="M15" value="0.03582767770785133" />
+      <entry key="M30" value="0.21005131202408142" />
+      <entry key="H1" value="0.8851815457883477" />
+      <entry key="H2" value="2.9322288670291656" />
+      <entry key="H4" value="6.620949353820297" />
+      <entry key="D1" value="16.19700533481123" />
+      <entry key="W1" value="19.392661286688416" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2595581921186798" />
-      <entry key="MS500" value="2.4116777087304215" />
-      <entry key="S2" value="4.281664374500098" />
-      <entry key="S5" value="7.321158695134615" />
-      <entry key="S10" value="10.214049726831337" />
-      <entry key="S30" value="14.216907971350048" />
-      <entry key="S60" value="16.846736125349498" />
-      <entry key="M2" value="20.75440480756978" />
-      <entry key="M5" value="30.53792068911733" />
-      <entry key="M10" value="58.8521294624258" />
-      <entry key="M15" value="97.54799229177252" />
-      <entry key="M30" value="197.9701917919365" />
-      <entry key="H1" value="309.3241230128155" />
-      <entry key="H2" value="407.3401861766286" />
-      <entry key="H4" value="491.3028532878947" />
-      <entry key="D1" value="618.6690748879003" />
-      <entry key="W1" value="651.1453541707123" />
+      <entry key="MS100" value="0.9726551479061533" />
+      <entry key="MS500" value="1.047749440837796" />
+      <entry key="S2" value="1.9346344130026567" />
+      <entry key="S5" value="2.8535352235005043" />
+      <entry key="S10" value="3.3521338717984377" />
+      <entry key="S30" value="3.7647619145447466" />
+      <entry key="S60" value="3.879783833898736" />
+      <entry key="M2" value="3.9433925720790333" />
+      <entry key="M5" value="4.382026111191861" />
+      <entry key="M10" value="7.209788100678583" />
+      <entry key="M15" value="11.502267857531356" />
+      <entry key="M30" value="27.614396894097446" />
+      <entry key="H1" value="75.06410964941415" />
+      <entry key="H2" value="192.71027091049595" />
+      <entry key="H4" value="365.59669107037905" />
+      <entry key="D1" value="704.3709593654052" />
+      <entry key="W1" value="800.3492474500221" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,46 +116,115 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.employee_pay_calculator.executor": "Run",
-    "Python.monthly_budget_tracker.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/VSCode Test/Python",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.W5ICT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.W6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.W7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.employee_pay_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.monthly_budget_tracker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scanLAN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scanLANAndDNSPort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scanLANandDNS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.w4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/VSCode Test/Python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\VSCode Test\Python" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\30148167\PycharmProjects\ICTPRG435\Exercises" />
       <recent name="C:\Users\User\PycharmProjects\ICTPRG435\AT1" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.scanLAN">
+    <configuration name="scanLAN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ICTPRG435" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/scanLAN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scanLANandDNS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ICTPRG435" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/scanLANandDNS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scanLAN" />
+        <item itemvalue="Python.scanLANandDNS" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-6fa658e1df1a-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.369" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.27258.51" />
+        <option value="bundled-python-sdk-84eaadda3698-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.27258.51" />
       </set>
     </attachedChunks>
   </component>
@@ -168,6 +240,13 @@
       <workItem from="1785497719294" duration="3133000" />
       <workItem from="1785668852787" duration="1277000" />
       <workItem from="1785934402222" duration="4906000" />
+      <workItem from="1786504573383" duration="3920000" />
+      <workItem from="1786519407697" duration="5260000" />
+      <workItem from="1786524753538" duration="37000" />
+      <workItem from="1787123060651" duration="1005000" />
+      <workItem from="1787124104797" duration="3508000" />
+      <workItem from="1787727990542" duration="4113000" />
+      <workItem from="1788333085190" duration="2462000" />
     </task>
     <task id="LOCAL-00001" summary="Included employee_pay_calculator.py codes and pseudocodes">
       <option name="closed" value="true" />
@@ -209,7 +288,31 @@
       <option name="project" value="LOCAL" />
       <updated>1785935192098</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding W5 lab exercises">
+      <option name="closed" value="true" />
+      <created>1787728249195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1787728249195</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding W6 and W7">
+      <option name="closed" value="true" />
+      <created>1788334306407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1788334306407</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated w7">
+      <option name="closed" value="true" />
+      <created>1788335448203</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1788335448203</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,10 +322,32 @@
     <MESSAGE value="Included employee_pay_calculator.py codes and pseudocodes" />
     <MESSAGE value="deleted pseudocode, added a few comments for clarity in employee_pay_calculator.py. Added pseudocode for monthly_budget_tracker.py" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="Adding W5 lab exercises" />
+    <MESSAGE value="Adding W6 and W7" />
+    <MESSAGE value="updated w7" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated w7" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Downloads/scanLAN.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ICTPRG435$monthly_budget_tracker.coverage" NAME="monthly_budget_tracker Coverage Results" MODIFIED="1785935916913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AT1" />
-    <SUITE FILE_PATH="coverage/ICTPRG435$employee_pay_calculator.coverage" NAME="employee_pay_calculator Coverage Results" MODIFIED="1785935423400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AT1" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$main.coverage" NAME="main Coverage Results" MODIFIED="1786520864129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$scanLANAndDNSPort.coverage" NAME="scanLANAndDNSPort Coverage Results" MODIFIED="1786522809426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$scanLAN.coverage" NAME="scanLAN Coverage Results" MODIFIED="1787124437507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$scanLANandDNS.coverage" NAME="scanLANandDNS Coverage Results" MODIFIED="1786524489228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$employee_pay_calculator.coverage" NAME="employee_pay_calculator Coverage Results" MODIFIED="1786510395070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AT1" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$W7.coverage" NAME="W7 Coverage Results" MODIFIED="1788335153491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$w4.coverage" NAME="w4 Coverage Results" MODIFIED="1786521799700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$W5ICT.coverage" NAME="W5ICT Coverage Results" MODIFIED="1787124812257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
+    <SUITE FILE_PATH="coverage/ICTPRG435$W6.coverage" NAME="W6 Coverage Results" MODIFIED="1787731484330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises" />
   </component>
 </project>

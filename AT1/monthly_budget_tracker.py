@@ -1,7 +1,10 @@
-# input validation while loop + try catch
+# input validation by using 'while loop + try catch'
 while True:
     try:
+        #asking the user for their wage
         wagePerMonth = float(input("Enter your wage per hour: "))
+
+
         if wagePerMonth <= 0:
             print("Please enter a positive number")
         else:
@@ -19,9 +22,9 @@ continueButton = input("Would you like to continue? (y/n): ")
 while continueButton == "y":
     expenseCategory = input("Enter your expense category: ")
     expenseCategory = expenseCategory.upper()
-
     expenseAmount = float(input("Enter your expense amount: "))
-    totalExpenseAmount = totalExpenseAmount + expenseAmount
+    
+    totalExpenseAmount += expenseAmount
 
     continueButton = input("Would you like to continue? (y/n): ")
 
