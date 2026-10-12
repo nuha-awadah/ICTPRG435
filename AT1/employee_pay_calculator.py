@@ -4,7 +4,7 @@ while True:
         # asking the user for their wage inputs
         wagePerHour = float(input("What is your wage per hour?\n"))
 
-        #if entered negative numeber
+        #if entered negative number
         if wagePerHour < 0:
             print("Invalid input. Wage cannot be negative. Please try again.\n")
             continue
