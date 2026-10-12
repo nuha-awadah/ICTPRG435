@@ -32,7 +32,6 @@ while True:
 
 print(f"You have worked for {numberHourWork} hours and your wage per hour is ${wagePerHour}")
 
-
 if 40 < numberHourWork <= 168:
     # getting the amount of hours after the first 40 hours
     overtimeHourWork = numberHourWork - 40
@@ -55,5 +54,5 @@ else:
     totalWage = numberHourWork * wagePerHour
 
 print(f"You earned ${totalWage}")
-print(f"\nID :, Initials: ")
+print(f"\nID: 30148167, Initials: NABMY ")
 
