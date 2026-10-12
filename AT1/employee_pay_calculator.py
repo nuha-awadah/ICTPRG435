@@ -1,6 +1,29 @@
 # asking the user for their wage inputs
-wagePerHour = float(input(f"What is your wage per hour?\n"))
-numberHourWork = float(input(f"How many hours work?\n"))
+
+#included try catch block to fix
+while True:
+    try:
+        wagePerHour = float(input("What is your wage per hour?\n"))
+        if wagePerHour < 0:
+            print("Invalid input. Wage cannot be negative. Please try again.\n")
+            continue
+        break
+    except ValueError:
+        print("Invalid input. Please enter a numerical value.\n")
+
+while True:
+    try:
+        numberHourWork = float(input("How many hours work?\n"))
+        if numberHourWork < 0:
+            print("Invalid input. Hours cannot be negative. Please try again.\n")
+            continue
+        if numberHourWork > 168:
+            print("Invalid input. Hours cannot exceed 168 per week. Please try again.\n")
+            continue
+        break
+    except ValueError:
+        print("Invalid input. Please enter a numerical value.\n")
+
 print(f"You have worked for {numberHourWork} hours and your wage per hour is ${wagePerHour}")
 
 
