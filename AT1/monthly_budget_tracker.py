@@ -2,7 +2,7 @@
 while True:
     try:
         #asking the user for their wage
-        wagePerMonth = float(input("Enter your wage per hour: "))
+        wagePerMonth = float(input("Enter your wage per month: "))
 
         #handles negative number
         if wagePerMonth <= 0:
@@ -38,4 +38,4 @@ remainingBalance = wagePerMonth - totalExpenseAmount
 print(f"You have earned ${wagePerMonth} this month. Your total expense is ${totalExpenseAmount}\n"
       f"Your remaining balance is ${remainingBalance}.")
 
-# print(f"\nID : , Initials: ")
+print(f"\nID : , Initials: ")
