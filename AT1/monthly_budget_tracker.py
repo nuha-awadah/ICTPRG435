@@ -15,6 +15,7 @@ while True:
 
 #initializing expense category
 expenseCategory = input("Enter your expense category: ")
+#converts to uppercase letters
 expenseCategory = expenseCategory.upper()
 
 #initializing expense amount
@@ -22,10 +23,15 @@ totalExpenseAmount = float(input("Enter your expense amount: "))
 
 #initializing while loop to add more category and amount
 continueButton = input("Would you like to continue? (y/n): ")
+
+#looping to continuely ask for category and expense
 while continueButton == "y":
     expenseCategory = input("Enter your expense category: ")
+    #overwriting the expense category and converts to uppercase letters
     expenseCategory = expenseCategory.upper()
+    #overwriting the expense amount
     expenseAmount = float(input("Enter your expense amount: "))
+    #adding the current expense amount to the total
     totalExpenseAmount += expenseAmount
 
     #repeating the loop
