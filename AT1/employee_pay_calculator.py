@@ -54,5 +54,5 @@ else:
     totalWage = numberHourWork * wagePerHour
 
 print(f"You earned ${totalWage}")
-print(f"\nID: 30148167, Initials: NABMY ")
+print(f"\nID: , Initials:  ")
 
