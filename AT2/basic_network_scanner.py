@@ -4,6 +4,7 @@ SYNOPSIS
 
     TODO This describes how to run the script via CLI.
     e.g. helloworld [-h,--help] [-v,--verbose] [--version]
+    Run the script by entering the command [python basic_network_scanner.py]
 
 DESCRIPTION
 
@@ -93,47 +94,105 @@ https://pythontic.com/modules/socket/create_connection
 """
 import ipaddress
 import socket
-import scapy.all as scapy
 
-#initialize ports that needs to be scanned
-ports = [22,80,443, 3389, 8080]
-#initialize results list to keep the results of the scans
-results = []
+#get user input for IP address and input validation function
+def get_input_ip():
 
-while True:
-    #ask the user the IP addresses
-    targetIP = input("Please enter the target IP address or CIDR range: ")
+    #looping until the user input valid IP address
+    while True:
+        #ask the user the IP addresses
+        targetip = input("Please enter the target IP address or CIDR range: ")
 
-    #check if the IP address is valid using try-except block
-    try:
-        #turns the input to IPaddress object. If strict=TRUE then it can accept CIDR prefixes
-        network = ipaddress.ip_network(targetIP, strict=False)
-
-        #checks if the network version is IPv4 and not IPv6
-        if network.version != 4:
-            #error message for the user
-            print("Invalid IP address: IP address is not IPv4. Please try again.")
-        break
-
-    #any other value error
-    except ValueError:
-        print("Invalid IP address: Please enter a valid IP address or CIDR range. Please try again.")
-
-#looping through the network hosts addresses
-for ip in network.hosts():
-    print(f"Scanning IP address: {ip}")
-    #setting up the scan result in the result list
-    results.append(f"IP Scanned: {ip}")
-
-    #looping for every port that is in the ports list
-    for port in ports:
+        #check if the IP address is valid using try-except block
         try:
-            with socket.create_connection((ip, port), timeout=1):
+            #turns the input to IPaddress object. If strict=TRUE then it can accept CIDR prefixes
+            network = ipaddress.ip_network(targetip, strict=False)
+
+            #checks if the network version not IPv4
+            if network.version != 4:
+                #error message for the user
+                print("Invalid IP address: IP address is not IPv4. Please try again.")
+                continue
+            break
+
+        #any other value error
+        except ValueError:
+            #error message for the user
+            print("Invalid IP address: Please enter a valid IP address or CIDR range. Please try again.")
+
+    return network
+
+#checking the port either open, closed, or filtered function
+def scan_port(scanIPAddress,port):
+
+    #try except block to catch what type of error was put out when connecting to the network's ports
+    try:
+        #trying to connect to the network ports
+        with socket.create_connection((str(scanIPAddress), port), timeout=1):
+            return "Open"
+    #executes if the network port refused to connect first
+    except ConnectionRefusedError:
+        # return the port status as Closed
+        return "Closed"
+    #executes if the network port timed out or system function returns a system-related error
+    except (socket.timeout, OSError):
+        # return the port status as Filtered
+        return "Filtered"
+
+#scanning the ip address in a network function
+def scan_network(network):
 
 
 
+    # initialize ports that needs to be scanned
+    portlist = [22, 80, 443, 3389, 8080]
 
+    # attempts to scan the network and save the results
+    try:
+        # open the text file in write more using UTF-8 encoding
+        with open("scan_results.txt", "w", encoding="utf-8") as logFile:
+            # loop through each usable IP address in the network
+            for ipAddress in network.hosts():
+                # convert the IP address into a string and format the output
+                line = "IP Address: " + str(ipAddress)
 
+                # prints the ip address in the terminal for the user to see
+                print(line)
+                # write the ip address in the text file on a new line
+                logFile.write(line + "\n")
 
+                # looping again through each port in the port list
+                for port in portlist:
+                    # getting the status of each of the ports in the network
+                    status = scan_port(ipAddress, port)
+                    # convert the statis into a string and format the output
+                    line = "  Port " + str(port) + ": " + status
+                    # prints the status of the port in the terminal for the user to see
+                    print(line)
+                    # write the status of the port in the text file on a new line
+                    logFile.write(line + "\n")
 
-#check if the IP address is IPv4
+        # prints to let the user know that the function has finish executing
+        print("Scan finished. Results saved to scan_results.txt")
+
+    # catches if the program returns a system-related error
+    except OSError:
+        print("Error: Could not save scan_results.txt")
+
+    # catches if the user
+    except KeyboardInterrupt:
+        print("\nScan stopped by the user.")
+
+# executes the main functions to control the program execution
+def main():
+    #getting the input for ip address
+    network = get_input_ip()
+
+    if network is not None:
+        scan_network(network)
+
+# check if the script is being executed directly
+if __name__ == "__main__":
+
+    #calls the main function to start the program
+    main()
