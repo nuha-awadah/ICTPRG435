@@ -95,7 +95,7 @@ https://pythontic.com/modules/socket/create_connection
 import ipaddress
 import socket
 
-#get user input for IP address and input validation function
+# get user input for IP address and input validation function
 def get_input_ip():
 
     #looping until the user input valid IP address
@@ -142,8 +142,6 @@ def scan_port(scanIPAddress,port):
 #scanning the ip address in a network function
 def scan_network(network):
 
-
-
     # initialize ports that needs to be scanned
     portlist = [22, 80, 443, 3389, 8080]
 
@@ -185,11 +183,16 @@ def scan_network(network):
 
 # executes the main functions to control the program execution
 def main():
+
     #getting the input for ip address
     network = get_input_ip()
 
+    # checking if there are ip addresses before executing the function
     if network is not None:
+        # passing the network list to the scanning function
         scan_network(network)
+
+    print(f"\nID: 30148167, Initials:  NABMY")
 
 # check if the script is being executed directly
 if __name__ == "__main__":
