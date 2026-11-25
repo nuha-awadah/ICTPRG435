@@ -92,35 +92,42 @@ END
 https://pythontic.com/modules/socket/create_connection
 
 """
+
 import ipaddress
 import socket
+import sys
 
 # get user input for IP address and input validation function
 def get_input_ip():
 
-    #looping until the user input valid IP address
-    while True:
-        #ask the user the IP addresses
-        targetip = input("Please enter the target IP address or CIDR range: ")
+    # checks if there are command line arguments
+    if len(sys.argv) > 1:
+        # stores the first command-line argument as the target IP address
+        targetip = sys.argv[1]
+    else:
+        # no IP address was provided
+        print("Missing IP address or CIDR range.")
+        # exit the program
+        sys.exit(1)
 
-        #check if the IP address is valid using try-except block
-        try:
-            #turns the input to IPaddress object. If strict=TRUE then it can accept CIDR prefixes
-            network = ipaddress.ip_network(targetip, strict=False)
+    # check if the IP address is valid using a try-except block
+    try:
+        # converts the input into an IP network object
+        network = ipaddress.ip_network(targetip, strict=False)
 
-            #checks if the network version not IPv4
-            if network.version != 4:
-                #error message for the user
-                print("Invalid IP address: IP address is not IPv4. Please try again.")
-                continue
-            break
+        # checks whether the address is IPv4
+        if network.version != 4:
+            # error message for the user
+            print("Invalid IP address: IP address is not IPv4.")
 
-        #any other value error
-        except ValueError:
-            #error message for the user
-            print("Invalid IP address: Please enter a valid IP address or CIDR range. Please try again.")
+        # return the validated IP network object
+        return network
 
-    return network
+    # catches invalid IP addresses and CIDR ranges
+    except ValueError:
+        # error message for the user
+        print("Invalid IP address: Please enter a valid IP address or CIDR range. Please try again.")
+        sys.exit(1)
 
 #checking the port either open, closed, or filtered function
 def scan_port(scanIPAddress,port):
@@ -177,7 +184,8 @@ def scan_network(network):
     except OSError:
         print("Error: Could not save scan_results.txt")
 
-    # catches if the user
+    # catches if the user had typed in something on the keyboard to stop the scanning
+    # useful to quickly test the program when scanning for a network range
     except KeyboardInterrupt:
         print("\nScan stopped by the user.")
 
