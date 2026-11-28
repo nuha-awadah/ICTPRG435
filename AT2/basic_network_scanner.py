@@ -2,17 +2,44 @@
 """
 SYNOPSIS
 
-    TODO This describes how to run the script via CLI.
-    e.g. helloworld [-h,--help] [-v,--verbose] [--version]
-    Run the script by entering the command [python basic_network_scanner.py]
+    python basic_network_scanner.py <targetIP or CIDR> <additional targetIP or CIDR> [additional targets ...]
 
 DESCRIPTION
 
-    TODO This describes how to use this script.
+    The Basic Network Scanner is a command-line tool designed to scan
+    single or multiple IPv4 addresses and CIDR ranges.
+
+    The program attempts to establish TCP connections to the following
+    network ports:
+
+        22   - SSH
+        80   - HTTP
+        443  - HTTPS
+        3389 - RDP
+        8080 - Alternative HTTP
+
+    The status of each port is reported as Open, Closed, or Filtered
+    based on the connection result.
+
+    The program validates user input, handles invalid IP addresses
+    and network errors, and displays the scan results in the terminal.
+    The results are also saved to a text file named scan_results.txt.
+
+    This tool should only be used on authorized networks.
 
 EXAMPLES
 
-    TODO: Show some examples of how to use this script.
+    Scan a single IP address:
+        python basic_network_scanner.py 192.168.9.1
+
+    Scan multiple IP addresses separated by [space]:
+        python basic_network_scanner.py 192.168.9.1 192.168.9.2
+
+    Scan a CIDR range:
+        python basic_network_scanner.py 192.168.9.0/29
+
+    Scan an individual IP address and a CIDR range separated by [space]:
+        python basic_network_scanner.py 192.168.9.1 192.168.9.8/29
 
 AUTHOR
 
@@ -96,46 +123,48 @@ def scan_port(scanIPAddress,port):
         # return the port status as Filtered
         return "Filtered"
 
-#scanning the ip address in a network function
-def scan_network(network):
+# scanning the IP addresses in a network function
+def scan_network(networks):
 
-    # initialize ports that needs to be scanned
+    # initialize ports that need to be scanned
     portlist = [22, 80, 443, 3389, 8080]
 
     # attempts to scan the network and save the results
     try:
-        # open the text file in write more using UTF-8 encoding
+        # open the text file in write mode using UTF-8 encoding
         with open("scan_results.txt", "w", encoding="utf-8") as logFile:
-            # loop through each usable IP address in the network
-            for ipAddress in network.hosts():
-                # convert the IP address into a string and format the output
-                line = "IP Address: " + str(ipAddress)
 
-                # prints the ip address in the terminal for the user to see
-                print(line)
-                # write the ip address in the text file on a new line
-                logFile.write(line + "\n")
+            # FIX: loop through each validated network in the list
+            for network in networks:
 
-                # looping again through each port in the port list
-                for port in portlist:
-                    # getting the status of each of the ports in the network
-                    status = scan_port(ipAddress, port)
-                    # convert the statis into a string and format the output
-                    line = "  Port " + str(port) + ": " + status
-                    # prints the status of the port in the terminal for the user to see
+                # FIX: loop through each usable IP address in the network
+                for ipAddress in network.hosts():
+
+                    # convert the IP address into a string and format the output
+                    line = "IP Address: " + str(ipAddress)
+                    # prints the IP address in the terminal for the user to see
                     print(line)
-                    # write the status of the port in the text file on a new line
+                    # write the IP address in the text file on a new line
                     logFile.write(line + "\n")
+                    # looping through each port in the port list
+                    for port in portlist:
+                        # getting the status of each port in the network
+                        status = scan_port(ipAddress, port)
+                        # convert the status into a string and format the output
+                        line = "  Port " + str(port) + ": " + status
+                        # prints the status of the port in the terminal
+                        print(line)
+                        # write the status of the port in the text file
+                        logFile.write(line + "\n")
 
-        # prints to let the user know that the function has finish executing
+        # prints to let the user know that the function has finished executing
         print("Scan finished. Results saved to scan_results.txt")
 
     # catches if the program returns a system-related error
     except OSError:
         print("Error: Could not save scan_results.txt")
 
-    # catches if the user had typed in something on the keyboard to stop the scanning
-    # useful to quickly test the program when scanning for a network range
+    # catches if the user stops the scanning using the keyboard
     except KeyboardInterrupt:
         print("\nScan stopped by the user.")
 
@@ -145,10 +174,8 @@ def main():
     #getting the input for ip address
     network = get_input_ip()
 
-    # checking if there are ip addresses before executing the function
-    if network is not None:
-        # passing the network list to the scanning function
-        scan_network(network)
+    # passing the network list to the scanning function
+    scan_network(network)
 
     print(f"\nID: 30148167, Initials:  NABMY")
 
