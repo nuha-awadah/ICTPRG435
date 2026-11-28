@@ -29,68 +29,6 @@ VERSION
 
     $Id$
 
-Scenario 1: Network Scanner Script
-Create a script that follows the pseudocode you created in Scenario 1.
-File Name: basic_network_scanner.py
-Requirements:
-Include completed headers at the top of the script using the TMC_Header template.
-Add comments above each major block of code to explain its purpose.
-If you make changes to the pseudocode that were not originally planned, include a version 2 of your pseudocode (from Task 1b).
-
-Requirements:
-
-Command-line Input:
-The script should be executed from the command line (CLI).
-The user will input the target IP address or a range of IP addresses in CIDR notation (e.g., 192.168.1.0/24).
-
-Ports to Scan:
-The script should scan for the following ports:
-22 (SSH)
-80 (HTTP)
-443 (HTTPS)
-3389 (RDP)
-8080 (HTTP Alt)
-
-Scanning Mechanism:
-The script should attempt to open a TCP connection to each port in the list for each IP address in the range.
-The status of each port should be reported as one of the following:
-Open – The connection was successful.
-Closed – The connection was refused or no service is running on the port.
-Filtered – The port is unreachable due to a firewall or network filter.
-
-Output:
-The script should output the IP address and the status of each port in a human-readable format.
-All results should be saved to a log file called scan_results.txt.
-
-Error Handling:
-If the user provides an invalid IP or CIDR range, the script should display an error message and terminate.
-The script should gracefully handle network-related errors (e.g., connection timeouts).
-
-BEGIN
-
-INPUT targetIP
-IF targetIP IS VALID
-    CONTINUE
-ELSE IF
-    OUTPUT "Invalid IP"
-END
-
-FOR EACH targetIP
-    FOR EACH port
-        TRY connecting to port
-        IF connected
-            OUTPUT port, open
-        ELSE IF refused OR no service
-            OUTPUT port, closed
-        ELSE
-            OUTPUT port, filtered
-    OUTPUT result
-    SAVE scan_results.txt
-END
-
-
-https://pythontic.com/modules/socket/create_connection
-
 """
 
 import ipaddress
@@ -102,32 +40,44 @@ def get_input_ip():
 
     # checks if there are command line arguments
     if len(sys.argv) > 1:
-        # stores the first command-line argument as the target IP address
-        targetip = sys.argv[1]
+        # FIX: stores all command-line arguments as a list
+        targetips = sys.argv[1:]
     else:
-        # no IP address was provided
+        # if no IP address was provided
         print("Missing IP address or CIDR range.")
         # exit the program
         sys.exit(1)
 
-    # check if the IP address is valid using a try-except block
-    try:
-        # converts the input into an IP network object
-        network = ipaddress.ip_network(targetip, strict=False)
+    # FIX: initialize a list to store validated networks
+    networks = []
 
-        # checks whether the address is IPv4
-        if network.version != 4:
+    # FIX: loop through each IP address provided by the user
+    for targetip in targetips:
+
+        # check if the IP address is valid using a try-except block
+        try:
+            # converts the input into an IP network object
+            network = ipaddress.ip_network(targetip, strict=False)
+
+            # checks whether the address is IPv4
+            if network.version != 4:
+                # error message for the user
+                print("Invalid IP address: IP address is not IPv4.")
+                # exit the program
+                sys.exit(1)
+
+            # FIX: add the validated network to the list
+            networks.append(network)
+
+        # catches invalid IP addresses and CIDR ranges
+        except ValueError:
             # error message for the user
-            print("Invalid IP address: IP address is not IPv4.")
+            print("Invalid IP address or CIDR range.")
+            # exit the program
+            sys.exit(1)
 
-        # return the validated IP network object
-        return network
-
-    # catches invalid IP addresses and CIDR ranges
-    except ValueError:
-        # error message for the user
-        print("Invalid IP address: Please enter a valid IP address or CIDR range. Please try again.")
-        sys.exit(1)
+    # FIX: return the list of validated network objects
+    return networks
 
 #checking the port either open, closed, or filtered function
 def scan_port(scanIPAddress,port):
